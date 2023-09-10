@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+    
+}
+
+:root {
+    --purple: #574AE8;
+    --gradient: linear-gradient(270deg, #3EA1DB 0%, #574AE8 100%);
+    --white: #FFFFFF;
+    --background: #F3F5F7;
+    --gray: #717171;
+    --gray-dark: #1A202C;
+    --blue-light: #b9c7f8;
+}
+
+body {
+    background-color: var(--background);
+}
+
+header {
+    background: var(--gradient);
+}
+
+.header-container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.name-blog {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.name-blog h2 {
+    font-weight: 400;
+    color: var(--white);
+    font-size: 24px;
+    margin-top: 40px;
+}
+
+.barra-dePesquisa {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.barra-dePesquisa input {
+    width: 100%;
+    padding: 22px 75px;
+    border: 0;
+    color: var(--white);
+    font-size: 18px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    font-family: 'Inter', sans-serif;
+}
+
+.barra-dePesquisa input::placeholder {
+    color: var(--blue-light);
+}
+
+.barra-dePesquisa input:focus {
+    outline: none !important;
+    border: 1px solid #ccc;
+}
+
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    height: 100%;
+    width: 58px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+/* MAIN */
+
+
+main {
+    margin-top: 100px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1140px;
+    margin: 0 auto;
+    font-family: 'Lexend Deca', sans-serif; ;
+}
+
+.card {
+    background-color: var(--white);
+    border-radius: 5px;
+    margin-bottom: 50px;
+    box-shadow: 0 0 10px rgba(19, 19, 31, 0.05);
+}
+
+.container-data {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 25px 0px 25px;
+}
+
+
+#heart:hover {
+    cursor: pointer;
+}
+
+#heart {
+    height: 28px;
+}
+
+
+.container-data .data {
+    font-size: 16px;
+}
+
+.descricao-card {
+    padding: 0 25px 25px 25px;
+    margin-top: 20px;
+}
+
+
+.descricao-card h2 {
+    color: var(--gray-dark);
+    font-size: 26px;
+    font-weight: 400;
+    
+}
+
+.card p {
+    font-size: 18px;
+    color: var(--gray);
+    line-height: 32px;
+    margin-top: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
