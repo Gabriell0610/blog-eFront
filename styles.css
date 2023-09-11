@@ -134,7 +134,6 @@ main {
     margin-top: 20px;
 }
 
-
 .descricao-card h2 {
     color: var(--gray-dark);
     font-size: 26px;
@@ -148,6 +147,14 @@ main {
     line-height: 32px;
     margin-top: 10px;
     
+}
+
+#indicator {
+    background-color: #ff4754;
+    height: .35rem;
+    width: 0;
+    position: fixed;
+    top: 0;
 }
 
 
