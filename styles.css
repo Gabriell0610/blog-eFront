@@ -231,16 +231,69 @@ main {
 }
 
 @media (max-width: 380px) {
-    .card-container {
-        width: 360px;
-        margin: 0 35px;
+    .name-blog {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .name-blog h2 {
+        font-size: 25px;
+    }
+
+    .barra-dePesquisa {
+        padding: 0 30px;
     }
 
     .barra-dePesquisa input {
-        width: 374px;
+       padding: 30px 68px;
+       width: 290px;
+       font-size: 18px;
     }
 
-}    
+    .icon {
+        width: 50px;
+    }
+
+    .img-icon {
+       height: 30px;
+
+    }
+
+    .card {
+        width: 300px;
+     }
+ 
+    .container-data {
+        padding: 15px;
+    }
+
+    .container-data .data {
+        font-size: 18px;
+    }
+
+    .card-container {
+        
+        margin: 0 60px;
+    }
+
+    .descricao-card {
+        padding: 15px;
+    }
+
+    .descricao-card h2 {
+        width: 250px;
+        font-size: 18px;
+        
+    }
+
+    .descricao-card p {
+        width: 280px;
+        
+    }
+
+
+}
+
 
 
 
