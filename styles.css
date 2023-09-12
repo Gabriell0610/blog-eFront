@@ -159,24 +159,26 @@ main {
 
 /* media */
 
-@media (max-width: 480px) {
+
+@media (max-width: 425px){
+
+
     header {
-        width: 100%;
+       width: 100%; 
     }
 
     .name-blog h2 {
-        width: 100px;
-        font-size: 20px;
+        font-size: 18px;
     }
 
    .header-container {
         width: 100%;
-        margin: 0 auto;
-        padding: 0 20px;
+        padding: 0 40px;
+       
    }
 
    .barra-dePesquisa input {
-        width: 87%;
+        width: 100%;
         padding: 12px 40px;
         font-size: 14px;
    }
@@ -191,16 +193,17 @@ main {
 
    main {
         margin-top: 70px;
-}
+    }
 
    .card-container {
         max-width: 360px;
-        margin: 0 30px;
+        margin: 0 auto;
    }
 
    .container-data {
         padding: 15px
    }
+
    .container-data .data {
         font-size: 14px;
    }
@@ -220,8 +223,13 @@ main {
         line-height: 26px;
         width: 340px;
    }
+
+   #heart {
+    height: 22px;
+   }
     
 }
+
 
 
 
