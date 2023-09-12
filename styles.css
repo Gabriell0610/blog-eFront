@@ -162,9 +162,8 @@ main {
 
 @media (max-width: 425px){
 
-
     header {
-       width: 100%; 
+       width: 435px
     }
 
     .name-blog h2 {
@@ -174,11 +173,10 @@ main {
    .header-container {
         width: 100%;
         padding: 0 40px;
-       
    }
 
    .barra-dePesquisa input {
-        width: 100%;
+        width: 374px;
         padding: 12px 40px;
         font-size: 14px;
    }
@@ -195,9 +193,11 @@ main {
         margin-top: 70px;
     }
 
+
    .card-container {
-        max-width: 360px;
+        width: 374px;
         margin: 0 auto;
+
    }
 
    .container-data {
@@ -209,8 +209,8 @@ main {
    }
 
    .descricao-card {
-    padding: 15px;
-    margin-top: 0;
+        padding: 15px;
+        margin-top: 0;
    }
 
    .descricao-card h2 {
@@ -229,6 +229,18 @@ main {
    }
     
 }
+
+@media (max-width: 380px) {
+    .card-container {
+        width: 360px;
+        margin: 0 35px;
+    }
+
+    .barra-dePesquisa input {
+        width: 374px;
+    }
+
+}    
 
 
 
