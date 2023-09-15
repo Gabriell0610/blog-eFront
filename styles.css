@@ -26,7 +26,7 @@ header {
 }
 
 .header-container {
-    width: 1140px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -51,8 +51,9 @@ header {
 }
 
 .barra-dePesquisa input {
+    height: 65px;
     width: 100%;
-    padding: 22px 75px;
+    padding-left: 74px;
     border: 0;
     color: var(--white);
     font-size: 18px;
@@ -93,12 +94,8 @@ main {
 }
 
 .card-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 1140px;
+    max-width: 1200px;
     margin: 0 auto;
-    font-family: 'Lexend Deca', sans-serif; ;
 }
 
 .card {
@@ -110,9 +107,9 @@ main {
 
 .container-data {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 10px 25px 0px 25px;
+    align-items: center;
+    padding: 10px 25px 0 25px;
 }
 
 
@@ -133,6 +130,8 @@ main {
     padding: 0 25px 25px 25px;
     margin-top: 20px;
 }
+
+
 
 .descricao-card h2 {
     color: var(--gray-dark);
@@ -160,139 +159,84 @@ main {
 /* media */
 
 
-@media (max-width: 425px){
-
-    header {
-       width: 435px
-    }
-
-    .name-blog h2 {
-        font-size: 18px;
-    }
-
-   .header-container {
-        width: 100%;
-        padding: 0 40px;
-   }
-
-   .barra-dePesquisa input {
-        width: 374px;
-        padding: 12px 40px;
-        font-size: 14px;
-   }
-
-   .icon {
-        width: 30px;
-   }
-
-   .img-icon {
-        height: 22px;
-   }
-
-   main {
-        margin-top: 70px;
-    }
-
-
-   .card-container {
-        width: 364px;
-        margin: 0 38px;
-
-   }
-
-   .container-data {
-        padding: 15px
-   }
-
-   .container-data .data {
-        font-size: 14px;
-   }
-
-   .descricao-card {
-        padding: 15px;
-        margin-top: 0;
-   }
-
-   .descricao-card h2 {
-        font-size: 18px;
-        width: 300px;
-   }
-
-   .descricao-card p {
-        font-size: 14px;
-        line-height: 26px;
-        width: 340px;
-   }
-
-   #heart {
-    height: 22px;
-   }
-    
-}
-
-@media (max-width: 380px) {
-    .name-blog {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .name-blog h2 {
-        font-size: 25px;
-    }
-
-    .barra-dePesquisa {
-        padding: 0 30px;
-    }
-
-    .barra-dePesquisa input {
-       padding: 30px 68px;
-       width: 290px;
-       font-size: 18px;
-    }
-
-    .icon {
-        width: 50px;
-    }
-
-    .img-icon {
-       height: 30px;
-
-    }
-
-    .card {
-        width: 300px;
-     }
- 
-    .container-data {
-        padding: 15px;
-    }
-
-    .container-data .data {
-        font-size: 18px;
+@media(min-width: 1200px ) and (max-width: 1919px) {
+    .header-container {
+        width: 1000px;
     }
 
     .card-container {
-        
-        margin: 0 60px;
+        width: 1000px;
+    }
+}
+
+@media(min-width: 992px ) and (max-width: 1199px) {
+    .header-container {
+        width: 800px;
     }
 
-    .descricao-card {
-        padding: 15px;
+    .card-container {
+        width: 800px;
+    }
+}
+
+@media(min-width: 768px ) and (max-width: 991px) {
+    .header-container {
+        width: 90%;
+    }
+
+    .card-container {
+        width: 90%;
     }
 
     .descricao-card h2 {
-        width: 250px;
-        font-size: 18px;
-        
+        font-size: 19px;
     }
 
     .descricao-card p {
-        width: 280px;
-        
+        font-size: 14px;
+        line-height: 28px;
+    }
+}
+
+@media(min-width: 481px ) and (max-width: 767px) {
+    .header-container {
+        width: 90%;
     }
 
+    .card-container {
+        width: 90%;
+    }
 
+    .descricao-card h2 {
+        font-size: 18px;
+    }
+
+    .descricao-card p {
+        font-size: 14px;
+        line-height: 28px;
+    }
 }
+
+@media(max-width: 480px ) {
+    .header-container {
+        width: 90%;
+    }
+
+    .card-container {
+        width: 90%;
+    }
+
+    .descricao-card h2 {
+        font-size: 18px;
+    }
+
+    .descricao-card p {
+        font-size: 14px;
+        line-height: 28px;
+    }
+}
+
+
 
 
 
